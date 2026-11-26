@@ -1,0 +1,3 @@
+# Thorlabs CCS spectrometers (vendor 0x1313): allow access without sudo.
+# 0x8088 = CCS200 before firmware upload, 0x8089 = CCS200 ready.
+SUBSYSTEMS=="usb", ATTRS{idVendor}=="1313", ATTRS{idProduct}=="808[0-9]", MODE="0666", TAG+="uaccess"

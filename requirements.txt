@@ -1,0 +1,5 @@
+numpy
+matplotlib
+pyusb
+# ThorPy pure-pyUSB CCS driver, pinned to a tested commit
+thorlabs_ccs @ git+https://github.com/ElTinmar/CCS100@2ba71150664a794574ebde9dc6665ba91a4805bb
