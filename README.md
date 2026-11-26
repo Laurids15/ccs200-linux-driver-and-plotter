@@ -26,7 +26,7 @@ after which it re-enumerates as `1313:8089` and the green **READY** LED turns on
 
 ```bash
 git clone https://github.com/laurids15/ccs200-linux-driver-and-plotter.git
-cd ccs200-linux
+cd ccs200-linux-driver-and-plotter
 ./install.sh
 ```
 
